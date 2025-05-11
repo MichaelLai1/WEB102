@@ -26,11 +26,12 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://www.loom.com/share/dfbf5211710b46b7a7a6bb6ba975db14?sid=e7030e1c-a300-4515-829f-d80543b65c6d' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
 <!-- Recommended tools:
+link to walkthrough: https://www.loom.com/share/dfbf5211710b46b7a7a6bb6ba975db14?sid=e7030e1c-a300-4515-829f-d80543b65c6d
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
