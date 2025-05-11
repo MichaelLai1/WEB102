@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Cabin';
+    background-color: #758190;
+}
+
+#tentacles {
+    width: 70px;
+}
+.header-text{
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-left: 15px;
+    color:black
+    text-shadow: 2px 2px #00000040;
+}
+.header {
+    display: flex;
+
+    padding: 1%;
+    align-items: center;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+}
+
+.stats-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 60px lightblue;
+}
+
+.stats-card {
+    background-color: #a8b0bc;
+    border-radius: 7px;
+    padding: 1%;
+    margin: 1%;
+    width: 100%;
+    text-align: center;
+}
+
+#num-contributions, #total-raised, #num-games {
+    font-size: 50px;
+}
+
+#games-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 3px;
+}
+
+.game-img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px light;
+}
+
+.game-card {
+    background-color: #FFFFFF;
+    padding: 1%;
+    margin: 1%;
+    width: 300px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.game-card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
+#button-container {
+    text-align: center;
+}
+#button-container :hover{
+    background-color: green;
+    color: white;
+}
+
+button {
+    font-family: 'Cabin';
+    font-weight: 600;
+    border: none;
+    padding: 1%;
+    margin: 1%;
+    background-color: lightgrey;
+    border-radius: 70px;
+
+}
+.site-footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #2E8BC0;
+    color: white;
+    font-size: 0.9rem;
+    box-shadow: 0 -4px 10px rgba(0,0,0,0.1);
+}
+.main-nav {
+    text-align: center;
+    margin: 20px;
+}
+
+.main-nav a {
+    color: white;
+    background-color: #4A6FA5;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 0 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-nav a:hover {
+    background-color: #2E8BC0;
+}
+.founders-section {
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.founders-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.founder-card {
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 0 15px lightblue;
+    text-align: center;
+}
+
+.founder-img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* About content boxes */
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.about-container .stats-card {
+    width: 300px;
+    background-color: lightblue;
+    box-shadow: 0 0 15px lightblue;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-container h2 {
+    margin-top: 0;
+}
+
+/* Footer */
+.site-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: lightblue;
+    margin-top: 40px;
+}
+
+/* Navigation styling */
+.main-nav {
+    background-color: #a8b0bc;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.main-nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.main-nav a:hover {
+    text-decoration: underline;
+}
